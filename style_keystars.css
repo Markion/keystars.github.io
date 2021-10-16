@@ -1,0 +1,148 @@
+#color_bg{
+    background-color: ivory;
+    margin-top: 0;
+}
+
+#nav1{
+    width: 960px;
+    margin: 0 auto;
+}
+
+#nav1::before{
+    content: '';
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: gold;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+
+#minu{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 50px;
+}
+
+.li1{
+    float: left;
+}
+
+.buttons_menu{
+    color: white;
+    display: block;
+    height: 50px;
+    padding: 0 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.buttons_menu:hover{
+    background-color: orange;
+    color: gold;
+}
+
+#logo{
+    float: left;
+    padding-top: 8px;
+    padding-right: 45px;
+}
+
+.H1{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 170px;
+
+}
+
+#log{
+    margin-top: 15px;
+    margin-left: 170px;
+}
+
+.button1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: coral;
+    color: whitesmoke;
+    border: 5px solid rgb(255, 197, 176);
+    margin-right: 7px;
+    border-radius: 5px;
+    box-shadow: rgb(0, 0, 0, 0.2)4px 4px 5px;
+}
+
+.button1:hover{
+    background-color: gold;
+    border-color: rgb(255, 235, 123);
+}
+
+#panel{
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 100%;
+    list-style: none;
+    font-size: 17px;
+}
+
+.buttons_panel{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    border: 2px solid ivory;
+
+}
+
+.icon1{
+    float: left;
+    width: 20px;
+    margin-right: 2px;
+}
+
+.li2{
+    float: left;
+    padding-bottom: 4px;
+}
+
+.buttons_panel:hover{
+    color: silver;
+}
+
+#block1{
+    float: left;
+    margin-top: 10px;
+}
+
+#player{
+    float: left;
+}
+
+.H2{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 170px;
+}
+
+.A1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+.H3{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 170px;
+    
+
+}
+
