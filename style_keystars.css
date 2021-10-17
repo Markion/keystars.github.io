@@ -40,11 +40,15 @@
     line-height: 50px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    transition: transform 100ms ease-in-out;
 }
 
 .buttons_menu:hover{
     background-color: orange;
     color: gold;
+    transform-origin: center;
+    transform: scale(calc(14 / 13));
+    box-shadow: rgb(0, 0, 0, 0.2)4px 4px 5px;
 }
 
 #logo{
@@ -98,7 +102,6 @@
     font-weight: bold;
     color: black;
     border: 2px solid ivory;
-
 }
 
 .icon1{
@@ -113,15 +116,19 @@
 }
 
 .buttons_panel:hover{
-    color: silver;
+    text-shadow: rgb(150, 150, 150) 1px 1px 3px;
 }
 
 #block1{
     float: left;
     margin-top: 10px;
+    margin-bottom: 100%;
 }
 
 #player{
+    float: left;
+}
+#player1{
     float: left;
 }
 
@@ -142,7 +149,4 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     margin-left: 170px;
-    
-
 }
-
