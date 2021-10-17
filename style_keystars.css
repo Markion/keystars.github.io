@@ -133,9 +133,13 @@
 
 #player{
     float: left;
+    margin-right: 720px;
+    margin-bottom: 30px;
 }
 #player1{
     float: left;
+    margin-right: 720px;
+    margin-bottom: 30px;
 }
 
 .H2{
